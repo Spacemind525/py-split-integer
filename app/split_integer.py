@@ -6,7 +6,3 @@ def split_integer(value: int, number_of_parts: int) -> list:
         value -= next_number
     print(parts)
     return parts
-
-# if __name__ == "__main__":
-#     result = split_integer(112, 6)
-#     print(result)
